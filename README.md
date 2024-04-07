@@ -1,2 +1,12 @@
 # 5-Days-ML-Bootcamp_projects
-There are two projects: regression and Classification
+## Deadline for project submission is **16 April**. You have to submit any one project to get your certificate.
+### Submission link will be updated later here
+
+## Regression Project for Medical Insurance Forecast 
+Insurance companies need to set the insurance premiums following the population trends despite having limited information about the insured population if they have to put themselves in a position to make profits. This makes it necessary to estimate the average medical care expenses based on trends in the population segments, such as smokers, drivers, etc.
+To implement this regression project example, you can use the Medical Cost Personal Dataset (Insurance.csv) The aim here will be to predict the medical costs billed by health insurance on an individual given some or all of the independent variables of the dataset. Since the cost to be predicted is a continuous variable, it is pretty natural that regression is to be applied in its truest form (i.e., without the decision boundary as in regression-based classification). Therefore, you could choose to implement polynomial, multiple linear regression, or even Elastic Net Regression. Exploratory data analysis can be an essential step (even in this case despite the limited features). You will observe patterns, like the decreased tendency to smoke among those having children, helping you achieve reasonable feature selection and simpler models.
+
+## Loan Eligibility Prediction Classification Project 
+Credit appraisal is conducted in a detailed and systematic manner to gauge a loan applicant’s repayment ability. For corporate entities, such an evaluation is a comprehensive process covering the technical and financial elements.  A borrower should repay the loan on time without missing deadlines, crucial for a bank’s interest income and capital. Thereby, a borrower's repayment behavior directly affects the performance of the bank. However, the appraisal process can be tedious and calls for a degree of automation using machine learning.
+
+You can use the Loan Data Set (loan_dataset.csv) to build a classification machine learning model for the loan eligibility evaluation use case. You can use a simple classifier model such as the Support Vector Classifier and use the ROC (receiver operating characteristic) curve to evaluate its performance and quantify it using AUC (area under the curve).
